@@ -29,5 +29,5 @@ urlpatterns = [
    path('issue/', include('issue.urls')),
    # path('protocol/', include('protocol.urls')),
    path('station/', include('station.urls')),
-   # path('status/', include('status.urls')),
+   path('status/', include('status.urls')),
 ]
